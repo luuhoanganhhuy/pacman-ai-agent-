@@ -6,13 +6,13 @@ In this project, I will build a AI agent using Dikjstra algorithms to play play 
 ## Implementation
 The code for Pac-Man was adapted from the open-source made available by [Mike Billars](https://sites.google.com/site/doctormike/pacman.html) and the original version can be installed as a standard package in [Ubuntu](https://packages.ubuntu.com/xenial/games/pacman4console).
 
-### How Pac-Man game works
+## How Pac-Man game works
 For the explaination, see [Pacman Wikipedia](https://en.wikipedia.org/wiki/Pac-Man)
 
 
 ![A demonstration of Pac-Man game](pacman.png)
 
-### AI agent
+## AI agent
 
 The Pac-Man Graph G = {V, E} is implicitly defined. The vertex set V is defined as all the possible configurations (states),
 and the edges E connecting two vertexes are defined by the legal movements (right, left, up, down).
