@@ -22,6 +22,7 @@ For every step, explore all the posible path until consumming the budget if poss
 
 The algorithms should following these step:
 
+![Alogorithms logic](Capture.PNG)
 
 **Reward of a step is caclulated by `r(n) = (h(n) + score(n) − score(nParent)) * pow(discountFactor, depth)`**
 * h(n): The heuristic function is h(n) = i − l − g, where i = 10 if Pac-Man has eaten a fruit and becomes invincible in that state; l = 10 if a life has been lost in that state; and g = 100 if the game is over. Otherwise i = l = g = 0.
@@ -31,3 +32,5 @@ The algorithms should following these step:
 * max: adds up all of the rewards, stops when a move leads to a life lost.
 * avg: compute the average of the rewards, that is, the total reward divided by the number of the movement node's children.
 
+## Note:
+This project is a university assignment from Algorithms & Data Structure subject in The University of Melbourne, Department of Computing  and Software System, Semester 2 2019.
